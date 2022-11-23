@@ -11,10 +11,10 @@
     <div class="wrapper">
         <header class="header">
             <h1 class="header__title title">HTML5 Семантичні елементи</h1>
-            <p class="header__text">Семантичний елемент чітко описує його значення як для браузера, так і для розробника. 
+            <p class="text">Семантичний елемент чітко описує його значення як для браузера, так і для розробника. 
             <br> Приклади не <span class="semElements">семантичних</span>  елементів: div і span - нічого не говорить про його вміст. 
             <br> Приклади <span class="semElements">семантичних</span> елементів: form, table і article - чітко визначає його зміст.</p>
-            <h2 class="header__title_small">Підтримка браузерів</h2>
+            <h2 class="header__title header__title_small">Підтримка браузерів</h2>
             <div class="header__icons">
                 <a href="https://www.google.com/intl/uk_ua/chrome/">
                     <img src="/img/chrome.svg" alt="chrome" class="header__icon  header__icon_chrome">
@@ -33,15 +33,15 @@
                 </a>
             </div>
     
-            <p class="header__text">Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах. <br> Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі
+            <p class="text">Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах. <br> Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі
                 елементи". <br> Прочитайте про це в 
             <a href="https://www.w3big.com/ru/html/html5-browsers.html#gsc.tab=0">підтримці браузера HTML5</a> . </p>
     
         </header>
     
         <main class="main">
-            <h2 class="main__title title">Нові семантичні елементи в HTML5</h2>
-            <p class="main__text">HTML5 пропонує нові семантичні елементи для визначення різних частин
+            <h2 class="main__title">Нові семантичні елементи в HTML5</h2>
+            <p class="text">HTML5 пропонує нові семантичні елементи для визначення різних частин
                 веб-сторінки:</p>
     
             <ul class="main__items">
@@ -58,43 +58,56 @@
                     <li class="main__item">footer</li>
                 </a>
             </ul>
-    
-            <h2 class="main__title title" id="Sec">HTML5  Section елемент</h2>
-            <p class="main__text">Елемент Section визначає розділ в документі.
+            
+            <section class="sectionEl">
+                <h2 class="title" id="Sec">HTML5  Section елемент</h2>
+                <p class="text">Елемент Section визначає розділ в документі.
                 Згідно з документацією в3к'с HTML5: "розділ представляє собою
                 тематичну угруповання контенту, зазвичай з заголовком".
                 Домашня сторінка зазвичай може бути розділена на розділи для
                 ознайомлення, змісту і контактної інформації.</p>
-            <img src="/img/Section.png" alt="example" class="example">
+                <img src="/img/Section.png" alt="example" class="example">
+            </section>
+            
     
-            <h2 class="main__title title" id="Art">HTML5 Article елемент</h2>
-            <p class="main__text">Елемент article визначає незалежний, автономний вміст.
+            <section class="articleEl">
+                <h2 class="title" id="Art">HTML5 Article елемент</h2>
+                <p class="text">Елемент article визначає незалежний, автономний вміст.
                 Стаття повинна мати сенс самостійно, і вона повинна мати можливість
                 читати його незалежно від іншої частини веб-сайту.
                 Приклади того, де можна використовувати елемент article :</p>
-            <ul class="main__items">
-                <li class="main__item">Повідомлення на форумі</li>
-                <li class="main__item">блозі</li>
-                <li class="main__item">Газетна стаття</li>
-            </ul>
-            <img src="/img/Article.png" alt="example" class="example">
-    
-            <h2 class="main__title title" id="Head">HTML5 Header елемент</h2>
-            <p class="main__text">Елемент header задає заголовок для документа або розділу.
+                <ul class="articleEl__items">
+                    <li class="articleEl__item">Повідомлення на форумі</li>
+                    <li class="articleEl__item">блозі</li>
+                    <li class="articleEl__item">Газетна стаття</li>
+                </ul>
+                <img src="/img/Article.png" alt="example" class="example">
+            </section>
+            
+            
+            <section class="headerEl">
+                <h2 class="title" id="Head">HTML5 Header елемент</h2>
+                <p class="text">Елемент header задає заголовок для документа або розділу.
                 Елемент header повинен використовуватися в якості контейнера для
                 вступного змісту.
                 В одному документі може бути кілька елементів header .
                 У наступному прикладі визначається заголовок для статті:</p>
-            <img src="/img/Header.png" alt="example" class="example">
+                <img src="/img/Header.png" alt="example" class="example">
+            </section>
+            
     
-            <h2 class="main__title title" id="Foot">HTML5 Footer елемент</h2>
-            <p class="main__text">Елемент footer вказує нижній колонтитул для документа або розділу.
+            <section class="footerEl">
+                <h2 class="title" id="Foot">HTML5 Footer елемент</h2>
+                <p class="text">Елемент footer вказує нижній колонтитул для документа або розділу.
                 Нижній колонтитул зазвичай містить автора документа, інформацію про
                 авторське право, посилання на умови використання, контактні дані і т.д.
                 В одному документі може бути кілька елементів footer.</p>
-            <img src="/img/Footer.png" alt="example" class="example">
+                <img src="/img/Footer.png" alt="example" class="example">
+            </section>
+            
     
         </main>
+
     </div>
     
     

@@ -36,34 +36,54 @@ a {
 .header {
   padding: 50px 0;
 }
+.header__title {
+  font-size: 42px;
+  padding-bottom: 20px;
+}
 .header__title_small {
   font-size: 24px;
 }
 .header__icons {
+  margin: 30px 0;
   width: 100%;
   display: block;
 }
 .header__icon {
-  padding: 0 30px;
-  width: 15%;
-  aspect-ratio: 1/1;
+  width: 100px;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin: 0 auto;
 }
-.title {
-  font-size: 36px;
-  padding: 30px 0;
+.main__title {
+  font-size: 24px;
   font-family: "Montserrat-Bold";
+  text-transform: uppercase;
+  padding-bottom: 40px;
 }
-
 .main__item {
   margin: 30px 0 30px 20px;
+  font-weight: bold;
 }
 .main__item:hover {
   color: rgb(240, 103, 39);
   font-size: 20px;
+}
+
+.articleEl__item {
+  margin: 15px 0 15px 20px;
+  font-weight: bold;
+}
+
+.title {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.text {
+  font-size: 24px;
+  font-family: "Montserrat-Regular";
 }
 
 .example {
